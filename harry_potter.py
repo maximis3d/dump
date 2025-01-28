@@ -8,7 +8,7 @@ def slow_print(text, delay=0.05):
         sys.stdout.write(char)
         sys.stdout.flush()
         time.sleep(delay)
-    print()  # Move to the next line
+    print()
 
 def calculate_countdown(event_date):
     """Calculates the time remaining until the event."""
